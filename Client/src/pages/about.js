@@ -4,7 +4,7 @@ import Footerc from "../Mycomps/Footer";
 import "../stylesheets/About.css";
 
 // Use an image that actually exists in `Client/public/images/`.
-const myImage = "/images/logo.svg";
+const myImage = "/images/priyansh.png";
 
 function About() {
   return (
@@ -12,22 +12,13 @@ function About() {
       <Navbar />
 
       <div className="about-section">
-        <h1>About Me</h1>
+        <h1>About Project</h1>
         <p>
-          Hi, I'm <b>Priyansh Shukla</b>, a Computer Science Engineering student
-          passionate about building efficient and innovative solutions.
+          SkyView Capital is an AI-powered stock prediction system that leverages LSTM neural networks, BERT-based sentiment analysis, and technical indicators to forecast stock price movements. 
         </p>
 
         <p>
-          I specialize in <b>Frontend Development</b> and have experience working
-          with HTML, CSS, JavaScript, and React. I also have knowledge of backend
-          technologies like Node.js and Python.
-        </p>
-
-        <p>
-          I have worked on multiple projects including AI-based systems,
-          chatbot solutions, and full-stack applications. I enjoy solving
-          real-world problems using technology and continuously improving my skills.
+          It integrates machine learning with a full-stack web application to provide insights into market trends.
         </p>
       </div>
 
