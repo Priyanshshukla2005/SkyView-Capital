@@ -1,0 +1,26 @@
+
+.col-md-7.col-lg-8.text-center.text-md-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.col-md-5.col-lg-4.ml-lg-0.text-center.text-md-end {
+  font-size: 18px;
+}
+
+
+.footer-image {
+  width: 30px;
+  margin: 5px;
+}
+
+
+.logogrid {
+  display: grid;
+  grid-template-columns: 60px auto;
+  align-items: center;
+  gap: 10px;
+}
